@@ -77,8 +77,8 @@ void colorBars()
   //sendColor2AllLEDs( CRGB::Green ); FastLED.show(); delay(1000);
   //sendColor2AllLEDs( CRGB::Blue );  FastLED.show(); delay(1000);
   FastLED.setTemperature(Candle);
+  FastLED.setBrightness(0xA0); 
   sendColor2AllLEDs( CRGB::White ); FastLED.show(); delay(1000);
-  
 } 
 
 void sendLastColorStatus() {
